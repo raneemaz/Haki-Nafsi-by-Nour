@@ -782,14 +782,14 @@ nav a.active {
   }
 
   .hero {
-    min-height: 240px;
+    min-height: 200px;
     background: url("../../pics/hero\ background.png background.png") cover no-repeat;
   }
 
   .hero-title {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 8px;
   }
 
   .hero-content {
@@ -801,7 +801,7 @@ nav a.active {
   }
 
   .roles {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
   }
 
   .hero-button {
@@ -810,7 +810,7 @@ nav a.active {
     width: 110px;
     height: 30px;
     justify-content: center;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-top: 1px;
     border-radius: 5px;
   }
@@ -861,6 +861,7 @@ nav a.active {
   margin: 0 auto;
   padding: 0 2rem;
 }
+
 
 
 
