@@ -802,6 +802,7 @@ nav a.active {
 
   .roles {
     font-size: 0.6rem;
+    margin-left: 8px;
   }
 
   .hero-button {
@@ -810,7 +811,7 @@ nav a.active {
     width: 110px;
     height: 30px;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 1px;
     border-radius: 5px;
   }
@@ -861,6 +862,7 @@ nav a.active {
   margin: 0 auto;
   padding: 0 2rem;
 }
+
 
 
 
