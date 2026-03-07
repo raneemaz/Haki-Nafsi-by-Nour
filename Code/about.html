@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ultra:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Haki Nafsi by Nour - Home</title>
+    <link rel="stylesheet" href="styles/about.css" />
+  </head>
+  <body>
+    <header class="banner">
+      <div class="container">
+        <div class="logo">
+          <img
+            src="../Icons/Logo.svg"
+            class="image_logo"
+            alt="Haki Nafsi Logo"
+          />
+          <h3 class="logo_title">Haki Nafsi by Nour</h3>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="services.html">Services & Expertise</a></li>
+            <li><a href="home.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">
+          <img src="../Icons/sandwich.svg" />
+        </div>
+      </div>
+    </header>
+    <div class="sidebar" id="sidebar">
+      <span class="close" onclick="toggleMenu()"
+        ><img src="../Icons/x.svg"
+      /></span>
+      <a href="home.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="services.html">Services & Expertise</a>
+      <a href="home.html#contact">Contact</a>
+    </div>
+    <img src="../pics/contact.svg" alt="About Image" class="about-image" />
+    <section class="about">
+      <ul>
+        <li>
+          Licensed Clinical Psychologist, trained in psychological assessment
+          and evidence-based therapeutic approaches. Certified in administering
+          standardized cognitive, emotional, and projective assessments,
+          including the WISC.
+        </li>
+
+        <li>
+          3 years of clinical experience working with children, adolescents,
+          adults, and couples in both therapeutic and evaluative contexts.
+        </li>
+        <li>
+          In addition to clinical practice, I serve as a family counseling
+          expert at the family court, contributing psychological expertise in
+          cases involving family and developmental concerns.
+        </li>
+        <li>
+          My approach is grounded in ethical practice, scientific assessment,
+          and a deep respect for individual and family dynamics. I aim to
+          understand each client’s psychological and developmental needs through
+          careful evaluation and personalized therapeutic support.
+        </li>
+      </ul>
+    </section>
+    <script src="hakiNafsi.js"></script>
+  </body>
+</html>
