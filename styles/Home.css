@@ -698,7 +698,7 @@ nav a.active {
   .hero-title {
     font-size: 1.3rem;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .hero-content {
@@ -771,3 +771,4 @@ nav a.active {
   margin: 0 auto;
   padding: 0 2rem;
 }
+
