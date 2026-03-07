@@ -798,6 +798,7 @@ nav a.active {
 
   .roles-list {
     gap: 0.1rem 0.75rem;
+    margin-left: 8px;
   }
 
   .roles {
@@ -862,6 +863,7 @@ nav a.active {
   margin: 0 auto;
   padding: 0 2rem;
 }
+
 
 
 
