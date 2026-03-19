@@ -33,7 +33,7 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     color: var(--primary-dark);
-    background-color: var(--bg-lighter);
+    min-height: 100%;
     line-height: 1.6;
 }
 
@@ -169,13 +169,13 @@ nav a.active {
 
 
 .info {
-    background: url('../../pics/services_bg.png') center/cover no-repeat;
-    min-height: 88.8vh;              
+    background: url('../pics/services_bg.png') center/cover no-repeat;
+    min-height: 100vh; 
     width: 100%;
     margin: 0;
-    padding: 2rem 2rem; 
-    
+    padding: 2rem 2rem;
 }
+
 
 .cards-wrapper {
     display: flex;
@@ -239,7 +239,6 @@ nav a.active {
 
    
 }
-
 
 @media (max-width: 768px) {
     .banner .container {
