@@ -368,6 +368,7 @@ nav a.active {
   .about-image{
     justify-content: center;
     align-items: center;
+    margin-right: 20%;
   }
   .about ul {
     gap: 1.5rem;
