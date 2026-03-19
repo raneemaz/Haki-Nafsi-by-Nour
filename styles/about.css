@@ -365,7 +365,9 @@ nav a.active {
     margin: 2rem auto;
     padding: 0 1rem;
   }
-
+  .about-image{
+    margin-left: 5%;
+  }
   .about ul {
     gap: 1.5rem;
   }
